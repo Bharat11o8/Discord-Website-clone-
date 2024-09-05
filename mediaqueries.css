@@ -1,0 +1,45 @@
+@media screen and (max-width : 1000px){
+    header{
+        display: none;
+    }
+    .central-section{
+        flex-wrap: wrap-reverse;
+        width: 90vw;
+    }
+    .central-section-1{
+        width: fit-content;
+        padding-top: 30px;
+    }
+    footer{
+        display: none;
+    }
+    .central-section-1 h1{
+        font-size: 40px;
+    }
+    .central-section-1 p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .central-section-1 h1{
+        font-size: 35px;
+    }
+    .central-section-1 p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .central-section-1 h1{
+        font-size: 25px;
+    }
+    .central-section-1 p{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
