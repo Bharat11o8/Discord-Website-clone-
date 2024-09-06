@@ -1,45 +1,115 @@
 @media screen and (max-width : 1000px){
-    header{
+    header , .language , .hat img , .end-image{ 
         display: none;
+    }
+    .mobile-nav{
+        display: flex !important;
     }
     .central-section{
+        justify-content:center;
         flex-wrap: wrap-reverse;
-        width: 90vw;
+        width: 100vw;
     }
     .central-section-1{
-        width: fit-content;
-        padding-top: 30px;
+        padding : 30px 0px 50px 0px;
+        width: 85%;
+        text-align: center;
     }
     footer{
-        display: none;
+        flex-wrap: wrap;
+        padding: 40px;
     }
-    .central-section-1 h1{
+    .central-section-1 h1 , .glassBox-text-1 h1 { 
         font-size: 40px;
     }
-    .central-section-1 p{
+    .central-section-1 p , .glassBox-text-1 p{
         font-size: 25px;
     }
-}
+    .glassBox , .glassBox-2{
+        margin: 80px 30px;
+        padding: 20px;
+        justify-content: center;
+    }
+    .glassBox-1 video{
+        height: auto;
+    }
+    .glassBox-text-1{
+        padding: auto;
+        text-align: center;
+        width: auto;
+    }
+
+    .caraousel{
+        margin: auto;
+        gap: 20px;
+    }
+    .footer-column{
+        justify-content: space-between;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .end {
+        margin: auto;
+    }
+}   
 
 @media screen and (max-width : 768px){
-    .central-section-1 h1{
+    .central-section-1 h1 , .glassBox-text-1 h1 {
         font-size: 35px;
     }
-    .central-section-1 p{
+    .central-section-1 p , .glassBox-text-1 p{
         font-size: 20px;
+    }
+    .central-section-img{
+        display: flex;
+        justify-content: center;
+    }
+    .central-section-img img{
+        width: 85%;
+    }
+    .page-bottom-button{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .end p{
+        font-size: 35px;
+    }
+    .download-button-2{
+        margin: 30px auto;
     }
 }
 
 @media screen and (max-width : 500px){
-    .central-section-1 h1{
+    .central-section-1 h1 , .glassBox-text-1 h1 , .end p{
         font-size: 25px;
     }
-    .central-section-1 p{
+    .central-section-1 p , .glassBox-text-1 p{
         font-size: 15px;
+    }
+    .footer-column{
+        justify-content:flex-start;
     }
 }
 
 
+.mobile-nav{
+    display: none;
+}
+
+.mobile-nav-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px;
+    width: 100%;
+}
+
+.mobile-nav-1 img:first-child{
+    width: 124px;
+}
+.mobile-nav-1 img:last-child{
+    padding: 18px;
+    margin-right: -40px;
+}
 
 
 

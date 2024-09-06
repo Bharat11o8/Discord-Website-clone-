@@ -68,22 +68,21 @@ body {
   line-height: 24px;
 }
 
-.login-button button:hover{
+.login-button button:hover {
   color: #5865f2;
 }
-
 
 .central-section {
   display: flex;
   padding-top: 30px;
   justify-content: space-between;
   padding-bottom: 20px;
-  flex-wrap: nowrap
+  flex-wrap: nowrap;
 }
 
 .central-section-1 {
   padding: 120px 0px 40px 70px;
-  width:60%;
+  width: 60%;
 }
 
 .central-section-1 p {
@@ -99,7 +98,7 @@ body {
   font-family: "ABC Ginto Nord Unlicensed Trial", sans-serif;
   font-weight: 600;
   font-size: 50px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .central-section-img img {
   width: 100%;
@@ -123,7 +122,7 @@ body {
   font-family: "custom-font";
 }
 
-.download-button button:hover{
+.download-button button:hover {
   color: #5865f2;
 }
 
@@ -177,7 +176,6 @@ body {
   font-family: "ABC Ginto Nord Unlicensed Trial", sans-serif;
   font-weight: 600;
   font-size: 45px;
-  text-transform: capitalize;
   margin-bottom: 20px;
   flex-shrink: 1;
 }
@@ -195,7 +193,7 @@ body {
   position: absolute;
   width: 120px;
   z-index: -1;
-  top: -11%;
+  top: -73px;
   right: 18%;
 }
 
@@ -295,7 +293,6 @@ body {
   position: absolute;
   margin-top: 60px;
   top: -63%;
-
 }
 
 .end-image-1 img {
@@ -326,7 +323,7 @@ footer {
     linear-gradient(261deg, #2e1a8e, #0e0e5c);
   position: relative;
   padding: 80px 120px 64px 120px;
-  border-top:  5px solid  #fff3;
+  border-top: 5px solid #fff3;
 }
 
 .footer-container {
@@ -406,7 +403,7 @@ hr {
   color: #fff;
 }
 
-.hat img{
+.hat img {
   position: absolute;
   width: 25%;
   z-index: 4;
@@ -414,6 +411,6 @@ hr {
   right: 0;
 }
 
-.End-footer-container{
+.End-footer-container {
   position: relative;
 }
